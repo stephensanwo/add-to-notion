@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{.Title}}</title>
+    <link href="https://ui.decentraland.org/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body>
+
+    <nav class="app-nav"><h1 class="notion-ai-logo-small">Notion-AI</h1>
+        <div class="nav-links">
+            <a>Pricing</a>
+            <a>Workspace</a>
+
+            
+        </div>
+    </nav>
+      <div class="container">
+        <div class="img-container">
+          <img src="assets/notion.svg" alt=""></img>
+          <h1>+</h1>
+          <h1 class="notion-ai-logo">{{.Description}}</h1>
+        </div>
+        <div class="landing-title-container">
+          <h1>Supercharge your Notion workspaces with AI </h1>
+          <p>
+            {{.Long}}
+          </p>
+          <p></p>
+          <!-- <button class="ui button">
+            Follow
+          </button> -->
+        </div>
+
+        <!-- https://stephensanwo.github.io/notion-ai/notion-ai-client/ -->
+
+        <div class="authenticate">
+          <button class="ui labeled icon primary button" >
+            <i class="large icon lock open"></i>
+            <a href="{{.AuthUrl}}" >
+              Get Started
+            </a>
+          </button>
+
+        
+      
+            <!-- <div id="g_id_onload"
+                data-client_id="393001330569-md9ibjmtcolihev269o0fhodhiqfv4i5.apps.googleusercontent.com"
+                data-login_uri="https://192.168.0.149:4452/login"
+                data-auto_prompt="false">
+            </div>
+            <div class="g_id_signin"
+                data-type="standard"
+                data-size="large"
+                data-theme="filled_blue"
+                data-text="sign_in_with"
+                data-shape="circle"
+                data-logo_alignment="left" >
+            </div> -->
+        </div>
+        <div class="privacy">
+          <small>
+            Note: Your data is not stored by Notion AI, <br /> Notion AI only
+            has access to pages shared with the app.
+            <br />
+            <a>Read Privacy, Terms and Conditions</a>
+          </small>
+        </div>
+      </div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
+
+  </body>
+</html>

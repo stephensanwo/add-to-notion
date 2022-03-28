@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.body {
+  background-color: rgb(255, 254, 252);
+}
+.app-nav {
+  height: 70px;
+  background: transparent;
+  display: flex;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  padding-left: 100px;
+  z-index: 1000;
+  align-items: center;
+}
+
+.nav-links {
+  margin-left: 60px;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  color: #1c8df0;
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container {
+  min-height: 100vh;
+  width: 800px;
+  margin: auto;
+  padding-top: 15vh;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.landing-title-container {
+  margin-top: 60px;
+}
+
+.landing-title-container p {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.notion-ai-logo {
+  font-weight: 500;
+  font-size: 56px;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #05aa82, #1c8df0);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.notion-ai-logo-small {
+  font-weight: 500;
+  font-size: 24px;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #05aa82, #1c8df0);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+small {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+}
+
+.authenticate {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 300px;
+  height: 50px;
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1c8df0;
+}
+
+.privacy {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.button a {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+  color: #ffffff;
+  text-decoration: none;
+}
