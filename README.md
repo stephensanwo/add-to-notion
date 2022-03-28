@@ -6,7 +6,7 @@ Service to add web and social content (currently only twitter) to notion pages, 
 
 ### Architecture
 
-![Architecture](https://github.com/stephensanwo/add-to-notion/tree/master/add-to-notion-server/docs/atchitecture.svg)
+![Architecture](https://github.com/stephensanwo/add-to-notion/tree/master/add-to-notion-server/docs/architecture.svg)
 
 ### License
 
